@@ -1,9 +1,0 @@
-﻿  Vector3.cpp
-  Quaternion.cpp
-  Matrix3.cpp
-  Main.cpp
-  Game.cpp
-  Generating Code...
-  LINK : G:\GameplayProgramming\PRACTICAL_05_Transformation_CS_src\MatrixQuaternionUsing\Debug\MatrixQuaternionUsing.exe not found or not built by the last incremental link; performing full link
-  MatrixQuaternionUsing.vcxproj -> G:\GameplayProgramming\PRACTICAL_05_Transformation_CS_src\MatrixQuaternionUsing\Debug\MatrixQuaternionUsing.exe
-  MatrixQuaternionUsing.vcxproj -> G:\GameplayProgramming\PRACTICAL_05_Transformation_CS_src\MatrixQuaternionUsing\Debug\MatrixQuaternionUsing.pdb (Partial PDB)
