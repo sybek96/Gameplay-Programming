@@ -3,6 +3,7 @@
 #include <SFML/OpenGL.hpp>
 #include <gl/GL.h>
 #include <gl/GLU.h>
+#include "Matrix3.h"
 
 
 class Game
@@ -18,6 +19,7 @@ private:
 	void update();
 	void draw();
 	void unload();
+	void updateCube();
 	const int PRIMITIVES;
 
 	GLuint m_index;
@@ -25,4 +27,8 @@ private:
 	sf::Time m_elapsed;
 
 	float m_rotationAngle = 0.0f;
+	Vector3 m_points[8];
+	Matrix3 m_scale;
+	Matrix3 m_rotate;
+	Matrix3 m_translate;
 };
